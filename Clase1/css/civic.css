@@ -1,0 +1,36 @@
+body{
+        margin: 0 auto;
+}
+img{
+    height: 300px;
+    width: 380px;
+    position: absolute;
+    transform: rotateY(0deg);
+}
+.marco{
+    height: 300px;
+    width: 380px;
+    position: relative;
+    display: inline-block;
+}
+.marco:hover img{
+    transition: all;
+    transform: rotateY(180deg);
+}
+.front{
+    z-index: 3;
+}
+.back{
+    z-index: 2;
+}
+.back-h1{
+    z-index: 1;
+}
+
+@keyframes animacion{ 
+0% { 
+} 
+ 
+100% { 
+} 
+} 
